@@ -1,0 +1,45 @@
+#main {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: auto;
+    max-width: 100%;  
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif; 
+    font-size: 20px;
+    text-align: center; 
+}
+
+p,div,figcaption {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    text-align: justify; 
+}
+
+#tribute-info{
+    padding: 20px;
+    background-color: #c4c4c4;
+}
+li{
+    margin: 25px;
+}
+
+#image {
+    background-position: center;   
+    height: auto;
+    max-width:100%;
+    display: block;  
+}
