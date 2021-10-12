@@ -41,3 +41,12 @@ li{
     max-width:100%;
     display: block;  
 }
+
+#movies-slide {
+margin: 25px;
+padding-top: 10px ;
+}
+
+.thor-trilogy {
+    width: 25px;
+}
