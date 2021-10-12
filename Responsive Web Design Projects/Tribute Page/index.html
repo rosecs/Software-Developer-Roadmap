@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  </head>
 <body id="main">
     <section>
         <h1 id="title">Tom Hiddleston</h1>
@@ -38,24 +41,40 @@
     </section>
     <section>
         <h2>Outstanding filmography</h2>
-        <div id="movies-slide">
-          <figure id="thor-trilogy">
-            <img src="https://www.enter.co/wp-content/uploads/2018/04/Thor-1024x768.jpg" alt="Thor trilogy poster">
-            <figcaption id="thor-caption">MCU's Thor Trilogy (2011, 2013, 2017)</figcaption>
-          </figure>
-          <figure id="crimson-peak">
-            <img src="https://2.bp.blogspot.com/-BmK8biajgS8/VkqvHA5TphI/AAAAAAAAJDo/hPau3SEFs1U/s640/Wallpaper-HD-Crimson-Peak-2015-Movie-1920x1200.jpg" alt="Crimson peak poster">
-            <figcaption id="crimson-peak-caption">Crimson Peak (2015)</figcaption>
-          </figure>
-          <figure id="avengers-trilogy">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcomicvine1.cbsistatic.com%2Fuploads%2Foriginal%2F11138%2F111382991%2F7396169-6396962136-e19be.jpg&f=1&nofb=1" alt="Thor trilogy poster">
-            <figcaption id="avengers-caption">MCU's Avengers Trilogy (2012, 2018, 2019)</figcaption>
-          </figure>
-          <figure id="king-kong">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fposterspy.com%2Fwp-content%2Fuploads%2F2017%2F02%2Fkong-skull-island-poster-jp-upload-min-1200x1691-copy.jpg&f=1&nofb=1" alt="Crimson peak poster">
-            <figcaption id="kingkonk-caption">Konk: Skull island (2017)</figcaption>
-          </figure>
+        <!-- Slider main container -->
+        <div class=" movies-slider swiper">
+        <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+        <!-- Slides -->
+            <div class="swiper-slide">
+              <figure class="thor-trilogy">
+                <img src="https://www.enter.co/wp-content/uploads/2018/04/Thor-1024x768.jpg" alt="Thor trilogy poster">
+                <figcaption id="thor-caption">MCU's Thor Trilogy (2011, 2013, 2017)</figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="crimson-peak">
+                <img src="https://2.bp.blogspot.com/-BmK8biajgS8/VkqvHA5TphI/AAAAAAAAJDo/hPau3SEFs1U/s640/Wallpaper-HD-Crimson-Peak-2015-Movie-1920x1200.jpg" alt="Crimson peak poster">
+                <figcaption id="crimson-peak-caption">Crimson Peak (2015)</figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="avengers-trilogy">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcomicvine1.cbsistatic.com%2Fuploads%2Foriginal%2F11138%2F111382991%2F7396169-6396962136-e19be.jpg&f=1&nofb=1" alt="Thor trilogy poster">
+                <figcaption id="avengers-caption">MCU's Avengers Trilogy (2012, 2018, 2019)</figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="king-kong">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fposterspy.com%2Fwp-content%2Fuploads%2F2017%2F02%2Fkong-skull-island-poster-jp-upload-min-1200x1691-copy.jpg&f=1&nofb=1" alt="Crimson peak poster">
+                <figcaption id="kingkonk-caption">Konk: Skull island (2017)</figcaption>
+              </figure>
+            </div>
         </div>
+        <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+      </div>
     </section>
     <section>
         <h2>Credits and awards</h2>
