@@ -21,10 +21,16 @@ h3 {
     text-align: center;
 }
 
-p,div,figcaption {
+p,div {
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
     text-align: justify;
+}
+
+figcaption {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  text-align: center;
 }
 
 #tribute-info{
