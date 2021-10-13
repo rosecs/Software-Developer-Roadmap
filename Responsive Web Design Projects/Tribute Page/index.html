@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link  href="./tribute-page.js">
-    
+   
   </head>
 <body id="main">
     <section>
@@ -78,14 +78,41 @@
     </section>
     <section>
         <h2>Credits and awards</h2>
-        <figure id="golden-globe">
-          <img src="https://elcomercio.pe/resizer/lX6OcNeHVsHFzD5gl472cKEXEB8=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/PHNZYMUE6FFJ7ATC4SCG7GO7YE.jpg" alt="Golden Globe Awards">
-          <figcaption id="golden-globe-caption">Best Performance by an Actor in a Limited Series Made for Television (The Night Manager)</figcaption>
-        </figure>
-        <figure id="mtv-awards">
-          <img src="https://elintranews.com/wp-content/uploads/2019/06/MTV-1.jpg" alt="MTV Movie Awards">
-          <figcaption id="mtv-awards-caption">Best Villain (The Avengers)</figcaption>
-        </figure>
+        <div class=" movies-slider swiper">
+        <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+        <!-- Slides -->
+            <div class="swiper-slide">
+              <figure id="golden-globe">
+                <img src="https://elcomercio.pe/resizer/lX6OcNeHVsHFzD5gl472cKEXEB8=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/PHNZYMUE6FFJ7ATC4SCG7GO7YE.jpg" alt="Golden Globe Awards">
+                <figcaption id="golden-globe-caption">Best Performance by an Actor in a Limited Series Made for Television (The Night Manager)</figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure id="mtv-awards">
+                <img src="https://elintranews.com/wp-content/uploads/2019/06/MTV-1.jpg" alt="MTV Movie Awards">
+                <figcaption id="mtv-awards-caption">Best Villain (The Avengers)</figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="avengers-trilogy">
+                <img class="slide-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcomicvine1.cbsistatic.com%2Fuploads%2Foriginal%2F11138%2F111382991%2F7396169-6396962136-e19be.jpg&f=1&nofb=1" alt="Thor trilogy poster">
+                <figcaption id="avengers-caption">MCU's Avengers Trilogy (2012, 2018, 2019)</figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure class="king-kong">
+                <img class="slide-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fposterspy.com%2Fwp-content%2Fuploads%2F2017%2F02%2Fkong-skull-island-poster-jp-upload-min-1200x1691-copy.jpg&f=1&nofb=1" alt="Crimson peak poster">
+                <figcaption id="kingkonk-caption">Konk: Skull island (2017)</figcaption>
+              </figure>
+            </div>
+        </div>
+        <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+      </div>
+        
+        
     </section>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="slider.js"></script>
