@@ -27,10 +27,15 @@ p,div {
     text-align: justify;
 }
 
-figcaption {
+figcaption, footer {
   font-family: 'Rubik', sans-serif;
   font-size: 15px;
   text-align: center;
+}
+
+footer {
+  padding: 20px;
+  font-size: 20px;
 }
 
 #tribute-info{
