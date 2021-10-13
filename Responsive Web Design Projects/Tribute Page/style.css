@@ -36,6 +36,9 @@ figcaption {
 #tribute-info{
     padding: 20px;
     background-color: #c4c4c4;
+    margin: 60px 8.5%;
+    border-radius: 10px;
+
 }
 li{
     margin: 25px;
