@@ -15,15 +15,20 @@
         <h2>
        Thank you for taking the time to help us improve the plattform
         </h2>
-        <p>Name</p> <input type="text" name="name" placeholder="Enter your name" required>
-        <p>Email</p> <input type="text" name="email" placeholder="Enter your email" required>
-        <p>Age (optional)</p> <input type="text" name="age" placeholder="Age">
-        <p>Which option best describes your current role?</p>
-        <select name="role" placeholder="Select current role">
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="opel">Opel</option>
-          <option value="audi">Audi</option>
+        <label for="name">Name</label><br>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required><br><br>
+        <label for="email">Email</label><br>
+        <input id="email" type="text" name="email" placeholder="Enter your email" required><br><br>
+        <label for="age">Age (optional)</label><br>
+        <input id="age" type="text" name="age" placeholder="Age"><br><br>
+        <label for="role">Which option best describes your current role?</label><br>
+        <select id="role" name="role" required>
+          <option value="" disabled selected>Select current role</option>
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="not-say">Prefer not to say</option>
+          <option value="other">Other</option>
         </select>
         <p>Would you recommend freeCodeCamp to a friend?  </p>
         <input type="radio" id="def" name="answer" value="def">
