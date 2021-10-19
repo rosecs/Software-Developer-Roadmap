@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;  
+  padding: 0; 
 }
 
 :root {
@@ -11,5 +11,34 @@
     --font-color:#E7E0C9;
     --font-title:'Heebo', sans-serif;
     --font-text:'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+h1 {
+    margin-top:25px;
+    padding-top: 25px;
+    text-align: center; 
+    color: var(--font-color);
+    font-family: var(--font-title);
+    font-weight: 200;
+    font-size: 40px;
+}
+
+p, label {
+    padding: 5px;
+    text-align: center; 
+    color: var(--font-color);
+    font-family: var(--font-text);
+    line-height: 25px;
+}
+
+form {
+    margin: 40px 50px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: var(--form-color);
 }
 
