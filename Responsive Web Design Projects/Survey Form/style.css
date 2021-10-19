@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+:root {
+    --background-color: #002366;
+    --form-color: #0F52BA;
+    --button-color: #FA8072;
+    --field-color:#FFDAB9;
+    --font-color:#E7E0C9;
+    --font-title:'Heebo', sans-serif;
+    --font-text:'Montserrat', sans-serif;
+}
+
