@@ -31,6 +31,15 @@
           <option value="other">Other</option>
         </select>
         <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label for="favorite-feature">What is your favorite feature of freeCodeCamp</label><br>
+        <select id="favorite-feature" name="favorite-feature" required>
+          <option value="" disabled selected>Select an option</option>
+          <option value="challenge">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community"> Community</option>
+          <option value="open-source">Open Source</option>
+        </select>
+        <p>Would you recommend freeCodeCamp to a friend?  </p>
         <input type="radio" id="def" name="answer" value="def">
         <label for="def">Definitely</label>
         <br>
@@ -73,6 +82,9 @@
         <br>
         <input id="additional-courses" name="skills" type="checkbox" value="additional-courses">
         <label for="additional-courses">Additional Courses</label>
+        <p>Any comments or suggestions</p>
+        <textarea name="comment">Enter your comment here</textarea></ul>
+        <button id= "submit" type="submit">Submit</button>
         <form>
 </body>
 </html>
