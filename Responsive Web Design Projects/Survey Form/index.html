@@ -8,21 +8,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <form action="" method="POST">
-        <h1>
-       freeCodeCamp Survey Form
-        </h1>
-        <h2>
-       Thank you for taking the time to help us improve the plattform
-        </h2>
-        <label for="name">Name</label><br>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the plattform</p>
+    <form id="survey-form" action="" method="POST">
+        <label id="name-label" for="name">Name</label><br>
         <input id="name" type="text" name="name" placeholder="Enter your name" required><br><br>
-        <label for="email">Email</label><br>
-        <input id="email" type="text" name="email" placeholder="Enter your email" required><br><br>
-        <label for="age">Age (optional)</label><br>
-        <input id="age" type="text" name="age" placeholder="Age"><br><br>
+        <label id="email-label" for="email">Email</label><br>
+        <input id="email" type="email" name="email" placeholder="Enter your email" required><br><br>
+        <label id="number-label" for="number">Age (optional)</label><br>
+        <input id="number" type="number" name="age" min="18" max="150" placeholder="Age"><br><br>
         <label for="role">Which option best describes your current role?</label><br>
-        <select id="role" name="role" required>
+        <select id="dropdown" name="role" required>
           <option value="" disabled selected>Select current role</option>
           <option value="student">Student</option>
           <option value="full-time-job">Full Time Job</option>
