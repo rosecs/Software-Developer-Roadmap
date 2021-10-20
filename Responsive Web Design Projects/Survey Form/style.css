@@ -42,3 +42,15 @@ form {
     background-color: var(--form-color);
 }
 
+textarea {
+    position: relative;
+    left:5px;
+    height: 150px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: var(--font-text) ;
+    color: gray;
+    padding: 10px;
+}
+
