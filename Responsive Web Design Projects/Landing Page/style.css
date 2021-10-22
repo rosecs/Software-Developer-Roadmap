@@ -1,11 +1,59 @@
 :root {
     --background-morado: #72147E;
-    --form-rosa: #F21170;
+    --color-rosa: #F21170;
     --button-amarillo:#FA9905;
     --field-naranja:#FF5200;
-    --font-color:#E7E0C9;
+    --color-blanco:#E7E0C9;
     --font-title:'Poppins', sans-serif;
     --font-text2: 'Roboto Slab', serif;
     --font-text:'Montserrat', sans-serif;
     --font-logo:'Festive', cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-top: 170px;
+  padding-bottom: 240px;
+  font-family: var(--font-title);
+  font-size: 60px;
+  text-align: center;
+  color: var(--color-rosa);
+  background-color: rgba(231, 224, 201, 0.5)
+}
+
+#logo {
+  font-family: var(--font-logo);
+}
+
+h2 {
+  font-family: var(--font-text2);
+  text-align: center;
+}
+
+p {
+  font-family: var(font-text);
+  text-align: center;
+  font-size: 25px;
+}
+
+#banner {
+  background-image: url(assets/img/cocineras.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+#opiniones {
+  background-color: var(--color-rosa);
+}
+
+#fecha {
+  position: relative;
+  top: -170px;
+  font-weight: 350px;
 }
