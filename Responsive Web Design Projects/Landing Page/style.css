@@ -2,7 +2,7 @@
     --background-morado: #72147E;
     --color-rosa: #F21170;
     --button-amarillo:#FA9905;
-    --field-naranja:#FF5200;
+    --color-naranja:#FF5200;
     --color-blanco:#E7E0C9;
     --font-title:'Poppins', sans-serif;
     --font-text2: 'Roboto Slab', serif;
@@ -22,7 +22,7 @@ h1 {
   font-size: 30px;
   text-align: center;
   color: var(--color-rosa);
-  
+
 }
 
 #logo {
@@ -100,4 +100,23 @@ nav a {
 
 nav a:hover {
   color: var(--color-rosa);
+}
+
+#highlights {
+  display: inline;
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 82, 0, 0.5);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  font-family: var(--font-title);
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
