@@ -41,11 +41,8 @@ p {
   font-size: 25px;
 }
 
-#banner {
-  background-image: url(assets/img/cocineras.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 500px;
+#banner-image {
+  
 }
 
 #opiniones {
