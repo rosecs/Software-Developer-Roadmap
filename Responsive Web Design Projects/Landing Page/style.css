@@ -45,12 +45,13 @@ background-color: rgba(231, 224, 201, 0.5)
 h2 {
   font-family: var(--font-text2);
   text-align: center;
+  font-size: 30px;
 }
 
 p {
   font-family: var(--font-text2);
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 #banner-image {
@@ -62,7 +63,15 @@ p {
   align-content: center;
 }
 
-
+#historia-box {
+  
+}
+#historia-box, p {
+  text-align: justify;
+  margin: 20px 40px;
+  font-family: var(--font-text);
+  line-height: 30px;
+}
 #opiniones {
   background-color: var(--color-rosa);
 }
