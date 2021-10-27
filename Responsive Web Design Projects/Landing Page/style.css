@@ -63,14 +63,42 @@ p {
   align-content: center;
 }
 
-#historia-box {
-  
+
+#main-box {
+  background-color: aqua;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 300px 150px 150px;
+  grid-template-rows: 300px  150px 150px;
+  grid-gap: 10px;
+  grid-template-areas:
+      "text img1 img2"
+      "text img3 img4";
 }
 #historia-box, p {
+  background-color: #72147E;
+  grid-area: text;
   text-align: justify;
-  margin: 20px 40px;
+  margin: 10px 10px;
   font-family: var(--font-text);
   line-height: 30px;
+}
+#img1 {
+  background-color: #F21170;
+  grid-area: img1;
+  width: fit-content;
+  height: fit-content;
+
+}
+#img2 {
+  grid-area: img2;
+  background-color: #FF5200;
+}
+#img3 {
+  grid-area: img3;
+}
+#img4 {
+  grid-area: img4;
 }
 #opiniones {
   background-color: var(--color-rosa);
