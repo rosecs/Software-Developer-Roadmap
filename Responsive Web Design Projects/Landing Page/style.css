@@ -68,6 +68,10 @@ p {
   background-color: #E7E0C9;
 }
 
+#about-us img{
+  border-radius: 5px;
+}
+
 #main-box {
   margin:0 auto;
   padding-top: 20px;
@@ -109,7 +113,14 @@ p {
   height: fit-content;
 }
 #opiniones {
-  background-color: var(--color-rosa);
+  margin-top: 100px;
+  padding: 15px 15px;
+  background-color: rgba(255, 82, 0, 0.5);
+}
+#opiniones p{
+  font-size: 30px;
+  font-family: var(--font-title);
+  font-weight:600;
 }
 
 #fecha {
@@ -146,6 +157,9 @@ nav a {
 nav a:hover {
   color: var(--color-rosa);
 }
+#logo a {
+  color: var(--color-rosa) !important;
+}
 
 #highlights {
   display: inline;
@@ -165,4 +179,43 @@ nav a:hover {
   margin-top: 100px;
   margin-bottom: 100px;
   
+}
+
+#menu {
+  margin-top: 100px;
+  padding: 15px 30px;
+}
+#flex-container {
+  margin: 30px 30px;
+  padding: 20px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#menu img {
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+#menu p {
+  margin-top: 5px;
+  padding-top: 5px;
+  font-size: larger;
+}
+
+#contacto{
+  margin: 15px 15px;
+  padding: 15px 15px;
+  background-color: rgba(153,255,153,0.5) ;
+}
+#contacto p {
+  font-size: medium;
+}
+#social-media{
+  text-align: center;
+}
+
+footer{
+  margin-top: 100px;
+  text-align: center;
 }
