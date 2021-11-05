@@ -1,0 +1,85 @@
+:root {
+    --main-background: #0B0D17;
+    --main-background-rgb: rgb(11,13,23);
+    --main-background-hsl: hsl(230,35%,7%);
+    --title-color: #D0D6F9;
+    --title-color-rgb: rgb(208,214,249);
+    --title-color-hsl: hsl(231,77%,90%);
+    --text-color: #FFF;
+    --text-color-rgb: rgb(255,255,255);
+    --text-color-hsl: hsl(0,0%,100%);
+    --color-blanco:#E7E0C9;
+    --font-title:'Poppins', sans-serif;
+    --font-text2: 'Roboto Slab', serif;
+    --font-text:'Montserrat', sans-serif;
+    --font-logo:'Festive', cursive;
+}
+*{
+    margin: 0 auto;
+}
+nav{
+    margin: 15px 15px;
+    padding: 30px 30px;
+    text-align: right;
+    background-color: rgba(255,255,255,0.2);
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+nav li{
+    display: inline-block;
+}
+body{
+    
+    background-image: url("./assets/home/backgro17.jpg");
+}
+h1{
+    margin-left: 100px;
+    font-size: 150px ;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+h2{
+    margin-right: 100px;
+    font-size: 100px ;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+h3{
+    font-size: 56px;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+h4{
+    font-size: 32px;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+h5{
+    margin-top: 200px;
+    margin-left:100px ;
+    font-size: 28px;
+    letter-spacing: 4.75px ;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: var(--text-color);
+}
+.circle{
+    height: 274px;
+    width: 274px;
+    display: inline-block;
+    background-color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+}
+.circle::after{
+    height: 274px;
+    width: 274px;
+    display: inline-block;
+    background-color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+}
