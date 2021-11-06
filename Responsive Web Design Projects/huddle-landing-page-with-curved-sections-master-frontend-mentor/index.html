@@ -7,55 +7,101 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a06b17c38d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  Try it free
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
-
-  Get Started For Free
-
-  1.4k+
-  Communities Formed
-
-  2.7m+
-  Messages Sent
-
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem.
+  <nav>
+    <ul>
+      <li id="logo"><a href="#"><img src="/images/logo.svg" alt="Huddle-Logo"></a></li>
+      <li id="nav-button"><button class="button">Try it free</button></li>
+    </ul>
+  </nav>
+  <div id="main-container">
+  <section id="main">
+    <h1>Build The Community Your Fans Will Love</h1>
+    <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
+      your audience. Create connections with your users as you engage in genuine discussion.</p>
+    <button class="button">Get Started For Free</button>
+  </section>
+  <section id="data">
+    <div>
+      <img src="/images/screen-mockups.svg" alt="screen mockups">
+    </div>
+    <div>
+      <div>
+        <img src="/images/icon-c12.svg" alt="">
+        <p>1.4k+<br>Communities Formed</p>
+      </div>
+      <div>
+        <img src="/images/icon-messages.svg" alt="">
+        <p>2.7m+<br>Messages Sent</p>
+      </div>
+    </div>
+  </section>
+  <section id="grow-together">
+    <div>
+      <h2>Grow Together</h2>
+      <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+      Think of the insightful conversations you miss out on with a feedback form.</p>
+      <div>
+        <img src="/images/illust14.svg" alt="">
+      </div>
+    </div>
+  </section>  
+  <section id="flowing">
+    <div>
+      <h2>Flowing Conversations</h2>
+      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+        just-in-time loading for a more natural flow.</p>
+      <div>
+        <img src="/images/illust13.svg" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="users">
+    <div>
+      <h2>Your Users</h2>
+      <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+      once signed in to your app, your users can start chatting immediately.</p>
+      <div>
+        <img src="/images/illust15.svg" alt="">
+      </div>
+    </div>
+  </section>
   
-  Phone: +1-543-123-4567
-  example@huddle.com
+  <section id="get-started">
+    <h3>Ready To Build Your Community?</h3>
+    <button>Get Started For Free</button>
+  </section>
 
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
-
-  Subscribe
+  <section id="contact">
+    <div class="brand-info">
+      <img src="/images/logo.svg" alt="Huddle-Logo">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+      vestibulum a, ultrices quis sem.</p>
+      <p><i class="fas fa-phone-volume"></i> Phone: +1-543-123-4567</p>
+      <p><i class="fas fa-envelope-square"></i> example@huddle.com</p>
+    </div>
+    <div class="newsletter">
+      <div>
+        <h4>Newsletter</h4>
+        <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+          send you spam or pass on your email address</p>
+      </div>
+      <div>
+        <form action="POST">
+          <input type="email" required placeholder="john#mail.com">
+          <button>Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="social-media">
+      <i class="fab fa-facebook-square"></i><span><i class="fab fa-instagram"></i></span><span><i class="fab fa-twitter-square"></i></span>
+    </div>
+  </section>
+</div>
 
   <footer>
     <p class="attribution">
