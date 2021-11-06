@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root {
+    --font-headdings: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    --color-main-button: hsl(322, 100%, 66%);
+    --color-subscribe-botton: hsl(321, 100%, 78%);
+    --color-required: hsl(0, 100%, 63%);
+    --color-bg-footer: hsl(192, 100%, 9%);
+    --color-bg-section: hsl(207, 100%, 98%);
+}
+
+body {
+    font-family: var(--font-body);
+
+}
+
+#main-container {
+    margin: auto;
+    width: 80%;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-headdings);
+}
+
+nav {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 20px 2px;
+}
+
+nav li{
+    display: inline-block; 
+}
+
+#logo {
+    float: left;
+}
+
+.button {
+    border-radius: 25px;
+    border-color: var(--color-main-button);
+    background-color: var(--color-main-button);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    font-weight: 700;
+    border-style: none;
+}
+
+nav li button {
+    background-color: white !important;
+    padding: 5px !important;
+    width: 100px !important;
+    color: var(--color-main-button) !important;
+    border-color: var(--color-main-button) !important;
+    border-style: ridge !important;
+}
+#nav-button {
+    float: right;
+    margin-right: 40px;
+}
+
+#main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
