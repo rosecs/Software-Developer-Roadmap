@@ -67,9 +67,40 @@ nav li button {
     text-align: center;
 }
 
+#mockups {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-content: center;
+    width: 100%;
+    height: auto;
+}
+#grow-together {
+    margin-top: 400px;
+    background-color: var(--color-bg-section);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.quantity{
+    margin: 0px;
+    font-size: 100px;
+    font-weight: 700;
+}
 
+.description {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #B3B3B3;
+    text-align: center;
+}
 
-
+.icon {
+    margin: 1px;
+    float: left !important;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
