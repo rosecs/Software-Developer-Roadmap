@@ -15,7 +15,7 @@ body {
 
 }
 
-#main-container {
+.center-content {
     margin: auto;
     width: 80%;
 }
@@ -74,10 +74,7 @@ nav li button {
     width: 100%;
     height: auto;
 }
-#grow-together {
-    margin-top: 400px;
-    background-color: var(--color-bg-section);
-}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -100,6 +97,34 @@ nav li button {
 .icon {
     margin: 1px;
     float: left !important;
+}
+
+.margin-image, .illust {
+    display: block;
+    width: 100%;
+    
+}
+
+.space-between-sec {
+    margin-top: 120px;
+}
+
+.bg-section {
+    background-color: var(--color-bg-section);
+    width: 100% !important;
+    margin: 0 !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.margin-text-right {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.margin-text-left {
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
