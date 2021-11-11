@@ -24,6 +24,10 @@ h1, h2, h3, h4 {
     font-family: var(--font-headdings);
 }
 
+#get-started h3 {
+    font-size: 25px ;
+}
+
 nav {
     width: 100%;
     margin: 5px 0px;
@@ -43,9 +47,10 @@ nav li{
     border-color: var(--color-main-button);
     background-color: var(--color-main-button);
     color: white;
-    width: 200px;
-    padding: 10px;
+    width: 250px;
+    padding: 17px 20px;
     font-weight: 700;
+    font-size: 12px ;
     border-style: none;
 }
 
@@ -117,6 +122,14 @@ nav li button {
     padding-bottom: 50px;
 }
 
+#blue-section {
+    background-color: var(--color-bg-footer) !important;
+}
+
+#white-logo {
+    fill: #FFF ;
+}
+
 .margin-text-right {
     margin-top: 100px;
     margin-right: 100px;
@@ -125,6 +138,12 @@ nav li button {
 .margin-text-left {
     margin-top: 100px;
     margin-left: 100px;
+}
+
+#get-started{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
