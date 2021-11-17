@@ -127,7 +127,10 @@ nav li button {
 }
 
 #white-logo {
-    fill: #FFF ;
+    margin: 20px 0px;
+    fill: #FFF;
+    width: 200px !important;
+    height: auto !important;
 }
 
 .margin-text-right {
@@ -145,6 +148,55 @@ nav li button {
     margin-bottom: 100px;
     margin-top: 100px;
 }
+
+#contact {
+    color: #FFF;
+    font-size: small;
+}
+
+.paragraph-text {
+    font-weight: 600;
+    line-height: 20px;
+}
+.brand-info .paragraph-text {
+    margin-bottom: 20px;
+}
+
+.brand-info i {
+    margin-right: 10px;
+}
+.newsletter h4 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.social-media {
+    padding: 50px 0px;
+}
+.social-media i {
+    margin-right: 20px;
+    font-size: 30px;
+    display: inline-flex;
+}
+
+form {
+    margin: 30px 0px;
+    display: inline-block;
+}
+ form input {
+     padding: 10px;
+     border: none;
+     border-radius: 3px;
+ }
+
+ form button {
+     margin: 30px 0px !important;
+     padding: 11px !important ;
+     width: 120px !important;
+     border-radius: 3px !important;
+ }
 
 
 
