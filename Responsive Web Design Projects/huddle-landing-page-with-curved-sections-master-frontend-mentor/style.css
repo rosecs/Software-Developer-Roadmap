@@ -10,9 +10,17 @@
     --color-bg-section: hsl(207, 100%, 98%);
 }
 
+html {
+    font-size: 18px;
+}
+
 body {
     font-family: var(--font-body);
+    color: var(--color-bg-footer);
+}
 
+h1 {
+    font-size: 2.25rem;
 }
 
 .center-content {
@@ -25,13 +33,13 @@ h1, h2, h3, h4 {
 }
 
 #get-started h3 {
-    font-size: 25px ;
+    font-size: 1.5rem ;
 }
 
 nav {
     width: 100%;
-    margin: 5px 0px;
-    padding: 20px 2px;
+    margin: 0.4rem 0px;
+    padding: 1.2rem 0.1rem;
 }
 
 nav li{
@@ -47,38 +55,43 @@ nav li{
     border-color: var(--color-main-button);
     background-color: var(--color-main-button);
     color: white;
-    width: 250px;
-    padding: 17px 20px;
+    width: 13.5rem;
+    padding: 0.9rem 1.2rem;
     font-weight: 700;
-    font-size: 12px ;
+    font-size: 0.75rem;
     border-style: none;
 }
 
 nav li button {
     background-color: white !important;
-    padding: 5px !important;
-    width: 100px !important;
+    padding: 0.4rem !important;
+    width: 6rem !important;
     color: var(--color-main-button) !important;
     border-color: var(--color-main-button) !important;
     border-style: ridge !important;
 }
 #nav-button {
     float: right;
-    margin-right: 40px;
+    margin-right: 2rem;
 }
 
 #main {
-    margin-top: 200px;
+    margin-top: 9.75rem;
     text-align: center;
 }
 
 #mockups {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 5.2rem;
+    margin-bottom: 5.2rem;
     align-content: center;
-    width: 100%;
+}
+
+#mockups img {
+    display: block;
+    max-width: 100%;
     height: auto;
 }
+
 
 .container {
     display: flex;
@@ -87,20 +100,20 @@ nav li button {
 }
 .quantity{
     margin: 0px;
-    font-size: 100px;
+    font-size: 5.5rem;
     font-weight: 700;
 }
 
 .description {
-    margin-top: 5px;
-    font-size: 25px;
+    margin-top: 0.2rem;
+    font-size: 1.25rem;
     font-weight: 400;
     color: #B3B3B3;
     text-align: center;
 }
 
 .icon {
-    margin: 1px;
+    margin: 0.1rem;
     float: left !important;
 }
 
@@ -111,15 +124,15 @@ nav li button {
 }
 
 .space-between-sec {
-    margin-top: 120px;
+    margin-top: 6rem;
 }
 
 .bg-section {
     background-color: var(--color-bg-section);
     width: 100% !important;
     margin: 0 !important;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 #blue-section {
@@ -127,74 +140,74 @@ nav li button {
 }
 
 #white-logo {
-    margin: 20px 0px;
+    margin: 1.2rem 0px;
     fill: #FFF;
-    width: 200px !important;
+    width: 10rem !important;
     height: auto !important;
 }
 
 .margin-text-right {
-    margin-top: 100px;
-    margin-right: 100px;
+    margin-top: 5.2rem;
+    margin-right: 5.2rem;
 }
 
 .margin-text-left {
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 5.2rem;
+    margin-left: 5.2rem;
 }
 
 #get-started{
     text-align: center;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 5.2rem;
+    margin-top: 5.2rem;
 }
 
 #contact {
     color: #FFF;
-    font-size: small;
+    font-size: 0.75rem;
 }
 
 .paragraph-text {
     font-weight: 600;
-    line-height: 20px;
+    line-height: 1.2rem;
 }
 .brand-info .paragraph-text {
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
 
 .brand-info i {
-    margin-right: 10px;
+    margin-right: 0.6rem;
 }
 .newsletter h4 {
-    margin-top: 25px;
-    margin-bottom: 20px;
-    font-size: 25px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
 }
 
 .social-media {
-    padding: 50px 0px;
+    padding: 3rem 0px;
 }
 .social-media i {
-    margin-right: 20px;
-    font-size: 30px;
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
     display: inline-flex;
 }
 
 form {
-    margin: 30px 0px;
+    margin: 0.75rem 0px;
     display: inline-block;
 }
  form input {
-     padding: 10px;
+     padding: 0.6rem;
      border: none;
      border-radius: 3px;
  }
 
  form button {
-     margin: 30px 0px !important;
-     padding: 11px !important ;
-     width: 120px !important;
+     margin: 1.5rem 0px !important;
+     padding: 0.6rem !important ;
+     width: 6.5rem !important;
      border-radius: 3px !important;
  }
 
